@@ -76,3 +76,60 @@ body{
 
     text-align:center;
 }
+
+.navbar {
+  position: fixed;      /* reste en haut */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.nav-icon {
+  width: 5cm;
+  /* height: 30px; */
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* Liens de navigation de la page d'accueil */
+.top-nav {
+  display: flex;
+  justify-content: space-between; /* ou space-around / space-evenly */
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  list-style: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 9999;
+}
+
+.top-nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.top-nav li a:hover {
+  text-decoration: underline;
+}

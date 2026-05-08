@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family:Arial, sans-serif;
+    /* font-family:Arial, sans-serif; */
     color:white;
 }
 /* =========================
@@ -103,7 +103,8 @@ body{
 .top-nav li a {
   color: white;
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  font-family: Lucida, monospace;
+  font-size:4vh;
 }
 
 .top-nav li a:hover {

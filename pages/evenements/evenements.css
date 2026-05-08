@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Pupilice";
+    src: url("../../fonts/CalSans-Regular.ttf") format("truetype");
+}
+
+
 *{
         margin:0;
         padding:0;
@@ -8,7 +14,7 @@
         overflow-x:auto;
         overflow-y:visible;
         height:100vh;
-        font-family: Arial, sans-serif;
+        font-family: Pupilice;
     }
 
     .gallery{

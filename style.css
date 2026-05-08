@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Pupilice";
+    src: url("fonts/CalSans-Regular.ttf") format("truetype");
+}
+
 /* RESET */
 *{
     margin:0;
@@ -6,7 +11,7 @@
 }
 
 body{
-    font-family: Figtree;
+    font-family: Pupilice;
     color:white;
 }
 /* =========================

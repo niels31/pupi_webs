@@ -17,6 +17,24 @@
         font-family: Pupilice;
     }
 
+    .top-nav {
+    display: flex;
+    justify-content: space-evenly; /* ou space-around / space-evenly */
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    list-style: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,1);
+    }
+
+    .top-nav li a {
+    color: white;
+    text-decoration: none;}
+
     .gallery{
         display:flex;
         gap:40px;

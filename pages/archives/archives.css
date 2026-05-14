@@ -58,7 +58,7 @@ text-decoration: none;}
     padding:40px;
     align-items:center;
     width:infinite;
-    background-color:blue;
+    background-color:#112c83;
 } 
 
 .atelier-gallery{
@@ -68,7 +68,7 @@ text-decoration: none;}
     padding:40px;
     align-items:center;
     width:infinite;
-    background-color:rgba(229, 255, 0, 0.993);
+    background-color:#ce144cda;
 } 
 
 .row-title{

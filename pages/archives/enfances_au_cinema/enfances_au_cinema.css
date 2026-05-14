@@ -16,6 +16,9 @@ body{
     display: flex;
     justify-content: center;
     flex-direction:column;
+    background-image: url("images/9b859812-8030-46c7-8a05-3b90cc6bb519.png");
+    background-size: 20vw;
+    background-repeat:repeat;
 }
 
 /* .page {

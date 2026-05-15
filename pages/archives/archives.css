@@ -21,12 +21,15 @@ ul {
 
 nav {
     background:white;
-    position:sticky;
-    top:0px;
     margin-bottom:20px;
+    width:100%;
+    position:sticky;
+    left:0;
+    top:0;
 }
 
 nav ul {
+    width:100%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -47,13 +50,14 @@ text-decoration: none;}
 }
 
 .gallery > *{
-    flex: 1 0 300px;
+    flex:1 0 300px;
     padding:20px;
 
 }
 
+/* permet de faire un fond de couleur */
 .gallery:nth-of-type(2) > *{
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .row-title {
@@ -67,6 +71,10 @@ text-decoration: none;}
 .row-title h3 {
     /* border:20px solid blue; */
     writing-mode: sideways-lr;
+}
+
+.card {
+    width:100%;
 }
 
 .card a {

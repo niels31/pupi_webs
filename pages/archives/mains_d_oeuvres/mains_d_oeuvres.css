@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Pupilice";
+    src: url("../../../fonts/CalSans-Regular.ttf") format("truetype");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Pupilice;
+    background-image: url("images/9b859812-8030-46c7-8a05-3b90cc6bb519.png");
+    background-size: 20vw;
+    background-repeat:repeat;
+}
+
+ul {
+    list-style:none;
+}
+
+nav {
+    background:white;
+    margin-bottom:20px;
+    width:100%;
+    position:sticky;
+    left:0;
+    top:0;
+}
+
+nav ul {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+color: black;
+text-decoration: none;}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    padding:20px;
+}
+
+.layout img {
+    max-height:400px;
+    max-width:400px;
+    object-fit: cover;
+}
+
+.illustrations {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.illustrations img {
+    height:175px;
+    width:200px;
+    object-fit: cover;
+}
+
+.description {
+    min-height: 400px;
+    max-width: 500px;
+}

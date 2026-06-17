@@ -26,6 +26,8 @@ nav {
     position:sticky;
     left:0;
     top:0;
+    padding-top:10px;
+    font-size:25px;
 }
 
 nav ul {

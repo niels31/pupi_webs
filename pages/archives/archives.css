@@ -12,7 +12,7 @@
 body{
     /* border: 20px solid cyan; */
     font-family: Pupilice;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 ul {
@@ -20,12 +20,11 @@ ul {
 }
 
 nav {
-    background:white;
     margin-bottom:20px;
     width:100%;
     position:sticky;
     left:0;
-    top:0;
+    top:10px;
 }
 
 nav ul {

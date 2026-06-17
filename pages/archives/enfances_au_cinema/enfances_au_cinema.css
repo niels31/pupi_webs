@@ -11,9 +11,9 @@
 
 body{
     font-family: Pupilice;
-    background-image: url("images/9b859812-8030-46c7-8a05-3b90cc6bb519.png");
-    background-size: 20vw;
-    background-repeat:repeat;
+    /* background-image: url("images/9b859812-8030-46c7-8a05-3b90cc6bb519.png"); */
+    /* background-size: 20vw; */
+    /* background-repeat:repeat; */
 }
 
 ul {
@@ -27,6 +27,8 @@ nav {
     position:sticky;
     left:0;
     top:0;
+    padding-top:10px;
+    font-size:25px;
 }
 
 nav ul {

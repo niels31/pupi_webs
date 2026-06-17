@@ -26,9 +26,10 @@ padding: 10px 20px;
 list-style: none;
 
 position: fixed;
-top: 0;
+top: 10;
 left: 0;
 background: rgba(0,0,0,0);
+font-size:25px;
 }
 
 .top-nav li a {

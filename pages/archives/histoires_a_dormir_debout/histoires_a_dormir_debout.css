@@ -40,6 +40,27 @@ nav ul li a {
 color: black;
 text-decoration: none;}
 
+.menu-deroulant ul {
+    display:none;
+    font-size:20px;
+}
+
+.menu-deroulant:hover {
+        background-color: rgb(180 180 180);
+}
+
+.menu-deroulant:hover ul {
+    display:block;
+    z-index:1;
+    position:absolute;
+    background-color: rgb(200 200 200);
+    width:auto;
+}
+
+.menu-deroulant:hover ul li:hover {
+    background-color: rgb(0 0 0 /50%);
+}
+
 .layout {
     display:flex;
     flex-wrap:wrap;
@@ -119,4 +140,14 @@ text-decoration: none;}
 
 .synopsis p {
     margin-bottom: 1em;
+}
+
+.extrait-video {
+    width:100%;
+    max-width:640px;
+}
+
+.extrait-video iframe {
+    width:100%;
+    max-width:640px;
 }

@@ -19,7 +19,9 @@
 <!-- barre de nav -->
     <nav>
         <ul>
-            <li><a class="onglets" href="../archives.html"><b>Archives</b></a></li>
+            <li class="menu-deroulant"><a class="onglets" href="../archives.html"><b>Archives</b></a>
+            <ul></ul>
+            </li>
             <li>
                 <a class="logo" href="../../../index.html">
                 <!-- <img src="images/etiquette.png" alt="Etiquette Ré/Créations" class="nav-icon"> -->
@@ -64,7 +66,7 @@
     <li class="extrait-video">
         <iframe title="vimeo-player" 
         src="https://player.vimeo.com/video/1175445896?h=000415bf7d" 
-        width="640" height="360" frameborder="0" 
+         height="360" frameborder="0" 
         referrerpolicy="strict-origin-when-cross-origin" 
         allow="autoplay; fullscreen; picture-in-picture; 
         clipboard-write; 
@@ -72,7 +74,6 @@
         web-share"   allowfullscreen></iframe>
     </li>
 </ul>
-
 
 
 </body>
@@ -88,3 +89,4 @@ document.querySelector('.affiche img').addEventListener('load', function(e) {
 })
 </script>
 <script src="../../../full_screen/full_screen.js"></script>
+<script src="/menu_deroulant.js"></script>

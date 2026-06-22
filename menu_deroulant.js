@@ -1,4 +1,4 @@
-const archives_fp="/pages/archives/archives.html";
+const archives_fp="/pupi_webs/pages/archives/archives.html";
 const menu_deroulant=document.querySelector(".menu-deroulant ul");
 
 async function chargerMenuDeroulant() {

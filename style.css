@@ -27,6 +27,7 @@ nav {
     left:0;
     top:10px;
     z-index:1;
+    font-size: clamp(10px, 3vw, 25px);
 }
 
 nav ul {
@@ -136,8 +137,8 @@ text-decoration: none;}
   cursor: pointer;
 } */
 
-Liens de navigation de la page d'accueil
-.top-nav {
+/* Liens de navigation de la page d'accueil */
+/* .top-nav {
   display: flex;
   justify-content: space-evenly; /* ou space-around / space-evenly */
   width: 100%;
@@ -150,7 +151,7 @@ Liens de navigation de la page d'accueil
   left: 0;
   background: rgba(0,0,0,0);
   z-index: 9999;
-}
+} */
 
 /* .top-nav li a {
   color: white;

@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Pupilice";
+    src: url("../../../fonts/CalSans-Regular.ttf") format("truetype");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Pupilice;
+    font-size: 18px;
+}
+
+ul {
+    list-style:none;
+}
+
+nav {
+    background:white;
+    margin-bottom:20px;
+    width:100%;
+    position:sticky;
+    left:0;
+    top:0;
+    padding-top:10px;
+    font-size: clamp(10px, 3vw, 25px);
+}
+
+nav ul {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+color: black;
+text-decoration: none;}
+
+.menu-deroulant ul {
+    display:none;
+    font-size:20px;
+}
+
+.menu-deroulant:hover {
+        background-color: rgb(180 180 180);
+}
+
+.menu-deroulant:hover ul {
+    display:block;
+    z-index:1;
+    position:absolute;
+    background-color: rgb(200 200 200);
+    width:auto;
+}
+
+.menu-deroulant:hover ul li:hover {
+    background-color: rgb(0 0 0 /50%);
+}
+
+
+.layout {
+    display:flex;
+    gap:20px;
+    padding:30px;
+    /* border:10px solid pink; */
+    flex-wrap:wrap;
+}
+
+.layout > * {
+    flex: 1 0 300px;
+    /* border: 20px solid green; */
+}
+
+.affiche {
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    font-size:16px;
+    text-align: center;
+}
+
+.affiche img {
+    width:100%;
+    /* width: auto; */
+    object-fit: contain;
+    /* display: block; */
+}
+
+.description-illustration {
+    display:grid;
+    height:100%;
+    width:500px;
+    grid-template-rows: auto auto 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.description {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    font-size:14px;
+    height:100%;
+}
+
+.description p {
+    margin-bottom: 1em;
+}
+
+.illustration img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    overflow:hidden;
+}
+
+.fiche-technique {
+    flex:0 0 auto;
+}

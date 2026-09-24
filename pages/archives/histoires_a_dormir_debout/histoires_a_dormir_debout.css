@@ -7,6 +7,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    text-align: justify;
 }
 
 body{
@@ -130,7 +131,7 @@ text-decoration: none;}
 }
 
 .fiche-technique p {
-    margin-bottom: 1em;
+    font-size:15px;
 }
 
 .synopsis {
@@ -145,6 +146,7 @@ text-decoration: none;}
 .extrait-video {
     width:100%;
     max-width:640px;
+    text-align:right;
 }
 
 .extrait-video iframe {

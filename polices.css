@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Pupilice";
+    src: url("fonts/CalSans-Regular.ttf") format("truetype");
+}
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Pupilice;
+    font-size:18px;
+    text-align: justify;
+}
